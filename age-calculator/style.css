@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(https://dateofbirthcalculators.com/wp-content/uploads/2023/03/Lunar-Age-Calculator-1024x536.png);
+    background-size: cover;
+}
+#head{
+    background-color: rgb(137, 21, 95) !important;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h1{
+    color: white !important;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    gap: 40px;
+}
+#age{
+    width: 350px;
+    height: 350px;
+    background-color:  rgb(137, 21, 95);
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(63, 59, 59, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#btn{
+    background-color:  rgb(137, 21, 95);
+    border: none;
+    color: white;
+   height: 50px;
+   width: 140px;
+   border-radius: 10px;
+   border: 1px solid black;
+   box-shadow: 15px 15px 15px rgba(63, 59, 59, 0.2);
+}
+#birth{
+    width: 200px;
+    height: 40px;
+}
